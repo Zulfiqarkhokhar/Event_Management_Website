@@ -2,21 +2,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: white;
 }
 body {
   background-color: black;
 }
-h1 {
+h1,
+h2 {
   font-size: 40px;
   font-weight: bold;
+  color: white;
 }
 h5 {
   font-weight: bold;
   font-size: 30px;
+  color: black;
 }
 p {
   font-size: 20px;
+  color: black;
 }
 .logo {
   width: 10%;
@@ -28,10 +31,16 @@ hr {
 }
 ul {
   list-style: none;
+  color: white;
 }
 .copy-right {
   font-size: 18px;
+  color: white;
 }
 .navbar-toggler {
   margin-left: auto;
+}
+.card-img-top {
+  height: 250px; /* Adjust as needed */
+  object-fit: cover;
 }
