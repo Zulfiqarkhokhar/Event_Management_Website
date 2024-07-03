@@ -44,3 +44,7 @@ ul {
   height: 250px; /* Adjust as needed */
   object-fit: cover;
 }
+a {
+  color: white;
+  text-decoration: none;
+}

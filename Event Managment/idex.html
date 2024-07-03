@@ -40,7 +40,7 @@
             <a class="nav-link" href="./Pages/events.html">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Service</a>
+            <a class="nav-link" href="./Pages/services.html">Service</a>
           </li>
         </ul>
       </div>
@@ -207,6 +207,66 @@
   </div>
 </div>
       </div>
+    </div>
+
+    <!-- booking form -->
+    <div class="container">
+      <div class="container my-5">
+  <h1 class="mb-4">Book Our Services</h1>
+  <hr />
+
+  <form class="booking-form">
+    <div class="mb-3">
+      <label for="fullName" class="form-label">Full Name</label>
+      <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email Address</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone Number</label>
+      <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="eventType" class="form-label">Event Type</label>
+          <select class="form-select" id="eventType" required>
+            <option selected disabled>Choose an event type</option>
+            <option value="Conference">Conference</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Festival">Festival</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="eventDate" class="form-label">Event Date</label>
+          <input type="date" class="form-control" id="eventDate" required>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="eventLocation" class="form-label">Event Location</label>
+      <input type="text" class="form-control" id="eventLocation" placeholder="Enter the event location" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="comments" class="form-label">Additional Comments</label>
+      <textarea class="form-control" id="comments" rows="4" placeholder="Enter any additional comments or requests"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
     </div>
 
     <!-- footer -->
